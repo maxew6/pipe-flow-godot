@@ -1,0 +1,509 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS  rotation: straight at 0 quarter turns
+PASS  rotation: straight at 1 quarter turns
+PASS  rotation: straight at 2 quarter turns
+PASS  rotation: straight at 3 quarter turns
+PASS  rotation: elbow at 0 quarter turns
+PASS  rotation: elbow at 1 quarter turns
+PASS  rotation: elbow at 2 quarter turns
+PASS  rotation: elbow at 3 quarter turns
+PASS  rotation: tee at 0 quarter turns
+PASS  rotation: tee at 1 quarter turns
+PASS  rotation: tee at 2 quarter turns
+PASS  rotation: tee at 3 quarter turns
+PASS  rotation: cross at 0 quarter turns
+PASS  rotation: cross at 1 quarter turns
+PASS  rotation: cross at 2 quarter turns
+PASS  rotation: cross at 3 quarter turns
+PASS  rotation: cap at 0 quarter turns
+PASS  rotation: cap at 1 quarter turns
+PASS  rotation: cap at 2 quarter turns
+PASS  rotation: cap at 3 quarter turns
+PASS  rotation: empty at 0 quarter turns
+PASS  rotation: empty at 1 quarter turns
+PASS  rotation: empty at 2 quarter turns
+PASS  rotation: empty at 3 quarter turns
+PASS  four turns return empty to start
+PASS  four turns return straight to start
+PASS  four turns return elbow to start
+PASS  four turns return tee to start
+PASS  four turns return cross to start
+PASS  four turns return cap to start
+PASS  negative turns rotate counter-clockwise
+PASS  cross is not rotatable
+PASS  empty cell is not rotatable
+PASS  out-of-bounds rotate is rejected
+PASS  five taps equal one tap (mod 4)
+PASS  copy is independent of the original
+PASS  rebuilding from data restores the start state (reset)
+PASS  straight line reaches the tap and is valid
+PASS  path has three cells
+PASS  no failure code on success
+PASS  no dead ends on a clean line
+PASS  broken middle does not reach the tap
+PASS  failure is no_route
+PASS  exactly one dead end reported
+PASS  dead end is the east opening of the first pipe
+PASS  water never jumps past the break
+PASS  pipe not facing the tank fails with source_closed
+PASS  no water enters a closed source
+PASS  last pipe wet but tap not reached
+PASS  failure is sink_closed
+PASS  opening toward the board edge counts as a dead end
+PASS  route through a tee reaches the tap
+PASS  end cap closes the tee branch (no leak)
+PASS  mis-turned cap: the tap is reachable but the branch leaks, so the route is NOT valid
+PASS  mismatched cap leaves one open branch end
+PASS  loop of five pipes is visited exactly once each
+PASS  loop without an opening toward the tap fails cleanly
+PASS  loop with an open tap side succeeds and is sealed
+PASS  same board gives identical results
+PASS  '.' is a valid empty cell
+PASS  'L3' is valid
+PASS  unknown letter is rejected
+PASS  piece without rotation digit is rejected
+PASS  rotation above 3 is rejected
+PASS  empty cell with a digit is rejected
+PASS  all 20 Chapter 1 levels load and validate (20 loaded)
+PASS  level 1: stored solution is valid (tap reached, nothing leaks)
+PASS  level 1: start layout is not already valid
+PASS  level 1: par is positive (4)
+PASS  level 1: replaying the solution taps solves it
+PASS  level 1: par moves earn three stars
+PASS  level 2: stored solution is valid (tap reached, nothing leaks)
+PASS  level 2: start layout is not already valid
+PASS  level 2: par is positive (6)
+PASS  level 2: replaying the solution taps solves it
+PASS  level 2: par moves earn three stars
+PASS  level 3: stored solution is valid (tap reached, nothing leaks)
+PASS  level 3: start layout is not already valid
+PASS  level 3: par is positive (8)
+PASS  level 3: replaying the solution taps solves it
+PASS  level 3: par moves earn three stars
+PASS  level 4: stored solution is valid (tap reached, nothing leaks)
+PASS  level 4: start layout is not already valid
+PASS  level 4: par is positive (9)
+PASS  level 4: replaying the solution taps solves it
+PASS  level 4: par moves earn three stars
+PASS  level 5: stored solution is valid (tap reached, nothing leaks)
+PASS  level 5: start layout is not already valid
+PASS  level 5: par is positive (8)
+PASS  level 5: replaying the solution taps solves it
+PASS  level 5: par moves earn three stars
+PASS  level 6: stored solution is valid (tap reached, nothing leaks)
+PASS  level 6: start layout is not already valid
+PASS  level 6: par is positive (10)
+PASS  level 6: replaying the solution taps solves it
+PASS  level 6: par moves earn three stars
+PASS  level 7: stored solution is valid (tap reached, nothing leaks)
+PASS  level 7: start layout is not already valid
+PASS  level 7: par is positive (10)
+PASS  level 7: replaying the solution taps solves it
+PASS  level 7: par moves earn three stars
+PASS  level 8: stored solution is valid (tap reached, nothing leaks)
+PASS  level 8: start layout is not already valid
+PASS  level 8: par is positive (11)
+PASS  level 8: replaying the solution taps solves it
+PASS  level 8: par moves earn three stars
+PASS  level 9: stored solution is valid (tap reached, nothing leaks)
+PASS  level 9: start layout is not already valid
+PASS  level 9: par is positive (12)
+PASS  level 9: replaying the solution taps solves it
+PASS  level 9: par moves earn three stars
+PASS  level 10: stored solution is valid (tap reached, nothing leaks)
+PASS  level 10: start layout is not already valid
+PASS  level 10: par is positive (7)
+PASS  level 10: replaying the solution taps solves it
+PASS  level 10: par moves earn three stars
+PASS  level 11: stored solution is valid (tap reached, nothing leaks)
+PASS  level 11: start layout is not already valid
+PASS  level 11: par is positive (10)
+PASS  level 11: replaying the solution taps solves it
+PASS  level 11: par moves earn three stars
+PASS  level 12: stored solution is valid (tap reached, nothing leaks)
+PASS  level 12: start layout is not already valid
+PASS  level 12: par is positive (8)
+PASS  level 12: replaying the solution taps solves it
+PASS  level 12: par moves earn three stars
+PASS  level 13: stored solution is valid (tap reached, nothing leaks)
+PASS  level 13: start layout is not already valid
+PASS  level 13: par is positive (9)
+PASS  level 13: replaying the solution taps solves it
+PASS  level 13: par moves earn three stars
+PASS  level 14: stored solution is valid (tap reached, nothing leaks)
+PASS  level 14: start layout is not already valid
+PASS  level 14: par is positive (8)
+PASS  level 14: replaying the solution taps solves it
+PASS  level 14: par moves earn three stars
+PASS  level 15: stored solution is valid (tap reached, nothing leaks)
+PASS  level 15: start layout is not already valid
+PASS  level 15: par is positive (12)
+PASS  level 15: replaying the solution taps solves it
+PASS  level 15: par moves earn three stars
+PASS  level 16: stored solution is valid (tap reached, nothing leaks)
+PASS  level 16: start layout is not already valid
+PASS  level 16: par is positive (6)
+PASS  level 16: replaying the solution taps solves it
+PASS  level 16: par moves earn three stars
+PASS  level 17: stored solution is valid (tap reached, nothing leaks)
+PASS  level 17: start layout is not already valid
+PASS  level 17: par is positive (7)
+PASS  level 17: replaying the solution taps solves it
+PASS  level 17: par moves earn three stars
+PASS  level 18: stored solution is valid (tap reached, nothing leaks)
+PASS  level 18: start layout is not already valid
+PASS  level 18: par is positive (5)
+PASS  level 18: replaying the solution taps solves it
+PASS  level 18: par moves earn three stars
+PASS  level 19: stored solution is valid (tap reached, nothing leaks)
+PASS  level 19: start layout is not already valid
+PASS  level 19: par is positive (9)
+PASS  level 19: replaying the solution taps solves it
+PASS  level 19: par moves earn three stars
+PASS  level 20: stored solution is valid (tap reached, nothing leaks)
+PASS  level 20: start layout is not already valid
+PASS  level 20: par is positive (19)
+PASS  level 20: replaying the solution taps solves it
+PASS  level 20: par moves earn three stars
+PASS  known-good level validates
+PASS  wrong row count is rejected
+PASS  level whose stored solution does not solve is rejected
+PASS  missing field is rejected
+PASS  scoring: equal to par is 3 stars
+PASS  scoring: slightly over par is 2 stars
+PASS  scoring: far over par is 1 star
+PASS  chapters: levels 1-20 are easy
+PASS  chapters: levels 21-45 are medium
+PASS  chapters: levels 46-75 are hard
+PASS  chapters: levels 76-100 are extreme
+PASS  chapters: an unknown difficulty is rejected
+PASS  chapters: numbers and names
+PASS  chapters: first/last ids and the chapter-finale levels 20/45/75/100
+PASS  chapters: a level with an unknown difficulty is rejected
+PASS  chapters: a level filed under the wrong chapter is rejected
+PASS  save: null gives a fresh save
+PASS  save: non-dictionary gives a fresh save
+PASS  save: array gives a fresh save
+PASS  save: negative score is clamped
+PASS  save: numeric string unlock value is accepted
+PASS  save: last level never exceeds the unlocked range
+PASS  save: invalid bool ignored, valid bool kept
+PASS  save: only valid level entries survive
+PASS  save: stars and moves are clamped
+PASS  save: a completed level implies the next one is unlocked
+PASS  save: JSON-style floats are accepted as ints
+PASS  progress: only level 1 starts unlocked
+PASS  progress: a locked level cannot be completed
+PASS  progress: rejected completion changes nothing
+PASS  progress: fresh save resumes at level 1
+PASS  progress: first completion unlocks level 2
+PASS  progress: resume moves to the next unfinished level
+PASS  progress: replaying is not a first completion and unlocks nothing
+PASS  progress: a worse run never lowers the records
+PASS  progress: a better run improves the records
+PASS  progress: records show the best values
+PASS  progress: replaying level 1 does not unlock extra levels
+PASS  progress: total stars add up best stars
+PASS  progress: unlocks are capped at the number of levels
+PASS  progress: all done resumes at the last level played
+PASS  progress: out-of-range level id is rejected
+PASS  round trip: unlocked levels survive JSON
+PASS  round trip: records survive JSON (int keys restored)
+PASS  round trip: settings survive JSON
+PASS  round trip: completion flags survive JSON
+PASS  store: missing files give a fresh save
+PASS  store: save reports success
+PASS  store: saved progress loads back
+PASS  store: corrupt main file falls back to the backup
+PASS  store: both files corrupt gives a fresh save, no crash
+PASS  store: wrong JSON shape gives a fresh save
+PASS  asset exists: res://assets/ui/btn_green.png
+PASS  asset exists: res://assets/ui/btn_blue.png
+PASS  asset exists: res://assets/ui/btn_wood.png
+PASS  asset exists: res://assets/ui/panel_wood.png
+PASS  asset exists: res://assets/ui/panel_parchment.png
+PASS  asset exists: res://assets/ui/icon_play.png
+PASS  asset exists: res://assets/ui/icon_levels.png
+PASS  asset exists: res://assets/ui/icon_settings.png
+PASS  asset exists: res://assets/ui/icon_play_btn.png
+PASS  asset exists: res://assets/ui/icon_back.png
+PASS  asset exists: res://assets/ui/icon_pause.png
+PASS  asset exists: res://assets/ui/icon_lock.png
+PASS  asset exists: res://assets/ui/star_gold.png
+PASS  asset exists: res://assets/ui/star_empty.png
+PASS  asset exists: res://assets/ui/logo.png
+PASS  asset exists: res://assets/menu/sky.png
+PASS  asset exists: res://assets/menu/cloud_1.png
+PASS  asset exists: res://assets/menu/cloud_2.png
+PASS  asset exists: res://assets/menu/cloud_3.png
+PASS  asset exists: res://assets/menu/cloud_4.png
+PASS  asset exists: res://assets/menu/mountains.png
+PASS  asset exists: res://assets/menu/midground.png
+PASS  asset exists: res://assets/menu/river.png
+PASS  asset exists: res://assets/menu/scenery.png
+PASS  asset exists: res://assets/menu/fg_bl.png
+PASS  asset exists: res://assets/menu/fg_br.png
+PASS  asset exists: res://assets/menu/fg_tl.png
+PASS  asset exists: res://assets/menu/fall_streaks.png
+PASS  asset exists: res://assets/menu/river_glints.png
+PASS  asset exists: res://assets/game/bg_game.png
+PASS  asset exists: res://assets/fonts/Outfit-Bold.ttf
+PASS  asset exists: res://assets/fonts/EricaOne-Regular.ttf
+PASS  menu layer 'sky' lies inside the art space
+PASS  menu layer 'cloud_1' lies inside the art space
+PASS  menu layer 'cloud_2' lies inside the art space
+PASS  menu layer 'cloud_3' lies inside the art space
+PASS  menu layer 'cloud_4' lies inside the art space
+PASS  menu layer 'mountains' lies inside the art space
+PASS  menu layer 'midground' lies inside the art space
+PASS  menu layer 'river' lies inside the art space
+PASS  menu layer 'scenery' lies inside the art space
+PASS  menu layer 'fg_bl' lies inside the art space
+PASS  menu layer 'fg_br' lies inside the art space
+PASS  menu layer 'fg_tl' lies inside the art space
+PASS  waterfall and river overlay windows lie inside the art space
+PASS  safe rect lies inside the art space
+PASS  paths: an elbow is ONE smooth bend path
+PASS  paths: elbow runs from the north opening to the east opening
+PASS  paths: the elbow curve stays inside its tile
+PASS  paths: the elbow is sampled finely enough to look round
+PASS  paths: elbow touches only open sides
+PASS  paths: a straight pipe has an entry arm and one exit arm
+PASS  paths: straight pipe never touches its closed north/south sides
+PASS  paths: a tee splits into exactly its two other open sides
+PASS  paths: tee never touches its closed side
+PASS  paths: a cross has one entry and three exit arms
+PASS  paths: an end cap only fills its entry arm
+PASS  paths: entering through a closed side yields no water
+PASS  plan: a valid route produces a valid plan
+PASS  plan: water enters the first pipe right after leaving the tank
+PASS  plan: each pipe is entered exactly when the previous one is full (continuous flow)
+PASS  plan: the tap is reached when the last pipe is full
+PASS  plan: events happen in order: tap reached, valve, stream, tank empty, taper, done
+PASS  tank: starts exactly full (nothing drains before water leaves)
+PASS  tank: nearly empty when the stream finishes
+PASS  tank: the level never rises during the run
+PASS  tank: it drains gradually, never in one sudden drop (max step 0.0053)
+PASS  tank: still holds water while the pipes are filling
+PASS  tap: nothing enters the tap before the water arrives
+PASS  tap: the handle stays closed until water reaches it
+PASS  tap: no stream before the valve has opened
+PASS  tap: the stream runs at full strength mid-pour
+PASS  tap: the stream ends completely
+PASS  tap: the handle turns smoothly to fully open
+PASS  plan: a cyclic network gives a finite plan with one timing per pipe
+PASS  invalid: a broken route yields an empty plan
+PASS  invalid: the tank never drains and the tap never opens
+PASS  invalid: null inputs give an empty plan, no crash
+PASS  problem: a pipe not facing the tank is flagged at the tank side
+PASS  problem: the first dead end met by the water is flagged
+PASS  problem: a last pipe not facing the tap is flagged at the tap side
+PASS  problem: a solved route has nothing to flag
+PASS  level 1: every wet pipe has an animation timing
+PASS  level 1: the animation lasts a sensible time (4.5s)
+PASS  level 1: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 2: every wet pipe has an animation timing
+PASS  level 2: the animation lasts a sensible time (4.8s)
+PASS  level 2: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 3: every wet pipe has an animation timing
+PASS  level 3: the animation lasts a sensible time (5.0s)
+PASS  level 3: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 4: every wet pipe has an animation timing
+PASS  level 4: the animation lasts a sensible time (5.9s)
+PASS  level 4: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 5: every wet pipe has an animation timing
+PASS  level 5: the animation lasts a sensible time (5.4s)
+PASS  level 5: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 6: every wet pipe has an animation timing
+PASS  level 6: the animation lasts a sensible time (5.7s)
+PASS  level 6: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 7: every wet pipe has an animation timing
+PASS  level 7: the animation lasts a sensible time (5.4s)
+PASS  level 7: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 8: every wet pipe has an animation timing
+PASS  level 8: the animation lasts a sensible time (5.4s)
+PASS  level 8: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 9: every wet pipe has an animation timing
+PASS  level 9: the animation lasts a sensible time (5.7s)
+PASS  level 9: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 10: every wet pipe has an animation timing
+PASS  level 10: the animation lasts a sensible time (4.6s)
+PASS  level 10: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 11: every wet pipe has an animation timing
+PASS  level 11: the animation lasts a sensible time (4.9s)
+PASS  level 11: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 12: every wet pipe has an animation timing
+PASS  level 12: the animation lasts a sensible time (4.9s)
+PASS  level 12: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 13: every wet pipe has an animation timing
+PASS  level 13: the animation lasts a sensible time (4.6s)
+PASS  level 13: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 14: every wet pipe has an animation timing
+PASS  level 14: the animation lasts a sensible time (4.9s)
+PASS  level 14: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 15: every wet pipe has an animation timing
+PASS  level 15: the animation lasts a sensible time (5.8s)
+PASS  level 15: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 16: every wet pipe has an animation timing
+PASS  level 16: the animation lasts a sensible time (4.7s)
+PASS  level 16: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 17: every wet pipe has an animation timing
+PASS  level 17: the animation lasts a sensible time (5.0s)
+PASS  level 17: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 18: every wet pipe has an animation timing
+PASS  level 18: the animation lasts a sensible time (5.4s)
+PASS  level 18: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 19: every wet pipe has an animation timing
+PASS  level 19: the animation lasts a sensible time (5.7s)
+PASS  level 19: water reaches each pipe's centre before its exits, and only through open sides
+PASS  level 20: every wet pipe has an animation timing
+PASS  level 20: the animation lasts a sensible time (6.1s)
+PASS  level 20: water reaches each pipe's centre before its exits, and only through open sides
+PASS  rule 1: adjacent pipes with reciprocal openings connect, nothing leaks
+PASS  rule 2: mismatched openings do not connect and the open end is reported
+PASS  rule 3: a reachable dead end makes the route invalid even though the tap is reached
+PASS  rule 4: an open end facing an empty cell is a leak
+PASS  rule 5: an open end facing outside the board is a leak
+PASS  rule 6: a cap whose opening faces the pipe seals the end
+PASS  rule 7: cap rotated 1 quarter turn(s) does NOT seal the tee (no false connection)
+PASS  rule 7: cap rotated 2 quarter turn(s) does NOT seal the tee (no false connection)
+PASS  rule 7: cap rotated 3 quarter turn(s) does NOT seal the tee (no false connection)
+PASS  rule 8: level 1 solution is valid with zero leaks
+PASS  rule 8: level 2 solution is valid with zero leaks
+PASS  rule 8: level 3 solution is valid with zero leaks
+PASS  rule 8: level 4 solution is valid with zero leaks
+PASS  rule 8: level 5 solution is valid with zero leaks
+PASS  rule 8: level 6 solution is valid with zero leaks
+PASS  rule 8: level 7 solution is valid with zero leaks
+PASS  rule 8: level 8 solution is valid with zero leaks
+PASS  rule 8: level 9 solution is valid with zero leaks
+PASS  rule 8: level 10 solution is valid with zero leaks
+PASS  rule 8: level 11 solution is valid with zero leaks
+PASS  rule 8: level 12 solution is valid with zero leaks
+PASS  rule 8: level 13 solution is valid with zero leaks
+PASS  rule 8: level 14 solution is valid with zero leaks
+PASS  rule 8: level 15 solution is valid with zero leaks
+PASS  rule 8: level 16 solution is valid with zero leaks
+PASS  rule 8: level 17 solution is valid with zero leaks
+PASS  rule 8: level 18 solution is valid with zero leaks
+PASS  rule 8: level 19 solution is valid with zero leaks
+PASS  rule 8: level 20 solution is valid with zero leaks
+PASS  rule 9: tap reached + leaking branch = invalid, no animation plan
+PASS  rule 9: the first leak is the one highlighted
+PASS  rule 10: a sealed cycle is valid and visits each pipe once
+PASS  rule 10: a cycle with a leak terminates and is rejected
+PASS  rule 11: a lone tee leaks in all four rotations (its spare opening always faces outside)
+PASS  screenshot: the layout with the cap turned correctly is valid
+PASS  screenshot: the tap is still reachable (this is why the old rule accepted it)
+PASS  screenshot: the route is now INVALID with failure 'leak'
+PASS  screenshot: the leak is the tee's south opening
+PASS  screenshot: that opening is the highlighted first problem
+PASS  screenshot: no animation plan is created, so the tank cannot drain
+PASS  level 10: the cap at (2,0) seals only when it faces its pipe
+PASS  level 11: the cap at (1,0) seals only when it faces its pipe
+PASS  level 11: the cap at (2,3) seals only when it faces its pipe
+PASS  level 12: the cap at (2,0) seals only when it faces its pipe
+PASS  level 13: the cap at (1,2) seals only when it faces its pipe
+PASS  level 14: the cap at (2,0) seals only when it faces its pipe
+PASS  level 14: the cap at (2,2) seals only when it faces its pipe
+PASS  level 15: the cap at (4,0) seals only when it faces its pipe
+PASS  level 15: the cap at (0,2) seals only when it faces its pipe
+PASS  level 19: the cap at (2,3) seals only when it faces its pipe
+PASS  level 20: the cap at (1,1) seals only when it faces its pipe
+PASS  level 20: the cap at (2,3) seals only when it faces its pipe
+PASS  level 20: the cap at (1,2) seals only when it faces its pipe
+PASS  level 20: the cap at (4,3) seals only when it faces its pipe
+PASS  view: a valid route starts the animation
+PASS  view: the tank is draining mid-flow
+PASS  view: a repeated Start Water press does not restart or overlap the animation
+PASS  view: reset cancels the running animation
+PASS  view: reset restores the original full tank
+PASS  view: reset closes the tap and removes the stream
+PASS  view: a cancelled flow never reports success afterwards
+PASS  view: a valid route reports success exactly once
+PASS  view: no further success is reported after the animation ended
+PASS  view: the tank ends nearly empty after a successful delivery
+PASS  view: an invalid route starts no flow animation
+PASS  view: an invalid route can only report failure
+PASS  view: an invalid route does not drain the tank or open the tap
+PASS  view: the leaking state starts NO flow animation
+PASS  view: the leaking state does not drain the tank or run the tap
+PASS  view: the leaking opening (tee, south) gets the red marker
+PASS  view: the leaking state can only report failure
+PASS  records: only the first completion counts as a first completion
+PASS  records: replaying the same result unlocks nothing more
+PASS  records: an invalid route never calls record_completion, so nothing is recorded
+PASS  campaign: every level has a unique, non-empty title
+PASS  campaign: ids run 1..N with no gaps (20 levels)
+PASS  campaign: loading twice gives identical levels (deterministic)
+PASS  level 1: par (4) equals the taps the stored solution needs
+PASS  level 1: filed under the right chapter
+PASS  level 1: expected outcome is 'valid'
+PASS  level 2: par (6) equals the taps the stored solution needs
+PASS  level 2: filed under the right chapter
+PASS  level 2: expected outcome is 'valid'
+PASS  level 3: par (8) equals the taps the stored solution needs
+PASS  level 3: filed under the right chapter
+PASS  level 3: expected outcome is 'valid'
+PASS  level 4: par (9) equals the taps the stored solution needs
+PASS  level 4: filed under the right chapter
+PASS  level 4: expected outcome is 'valid'
+PASS  level 5: par (8) equals the taps the stored solution needs
+PASS  level 5: filed under the right chapter
+PASS  level 5: expected outcome is 'valid'
+PASS  level 6: par (10) equals the taps the stored solution needs
+PASS  level 6: filed under the right chapter
+PASS  level 6: expected outcome is 'valid'
+PASS  level 7: par (10) equals the taps the stored solution needs
+PASS  level 7: filed under the right chapter
+PASS  level 7: expected outcome is 'valid'
+PASS  level 8: par (11) equals the taps the stored solution needs
+PASS  level 8: filed under the right chapter
+PASS  level 8: expected outcome is 'valid'
+PASS  level 9: par (12) equals the taps the stored solution needs
+PASS  level 9: filed under the right chapter
+PASS  level 9: expected outcome is 'valid'
+PASS  level 10: par (7) equals the taps the stored solution needs
+PASS  level 10: filed under the right chapter
+PASS  level 10: expected outcome is 'valid'
+PASS  level 11: par (10) equals the taps the stored solution needs
+PASS  level 11: filed under the right chapter
+PASS  level 11: expected outcome is 'valid'
+PASS  level 12: par (8) equals the taps the stored solution needs
+PASS  level 12: filed under the right chapter
+PASS  level 12: expected outcome is 'valid'
+PASS  level 13: par (9) equals the taps the stored solution needs
+PASS  level 13: filed under the right chapter
+PASS  level 13: expected outcome is 'valid'
+PASS  level 14: par (8) equals the taps the stored solution needs
+PASS  level 14: filed under the right chapter
+PASS  level 14: expected outcome is 'valid'
+PASS  level 15: par (12) equals the taps the stored solution needs
+PASS  level 15: filed under the right chapter
+PASS  level 15: expected outcome is 'valid'
+PASS  level 16: par (6) equals the taps the stored solution needs
+PASS  level 16: filed under the right chapter
+PASS  level 16: expected outcome is 'valid'
+PASS  level 17: par (7) equals the taps the stored solution needs
+PASS  level 17: filed under the right chapter
+PASS  level 17: expected outcome is 'valid'
+PASS  level 18: par (5) equals the taps the stored solution needs
+PASS  level 18: filed under the right chapter
+PASS  level 18: expected outcome is 'valid'
+PASS  level 19: par (9) equals the taps the stored solution needs
+PASS  level 19: filed under the right chapter
+PASS  level 19: expected outcome is 'valid'
+PASS  level 20: par (19) equals the taps the stored solution needs
+PASS  level 20: filed under the right chapter
+PASS  level 20: expected outcome is 'valid'
+PASS  campaign: a par that does not match the stored solution is rejected
+PASS  campaign: a move limit below what the solution needs is rejected
+PASS  campaign: an unexpected 'expected' outcome is rejected
+PASS  campaign: an empty title is rejected
+PASS  campaign: a level that starts already solved is rejected
+PASS  campaign: the unmodified first level validates
+PASS  chapter progress: completed levels are counted per chapter range
+PASS  chapter progress: stars are summed per range
+PASS  chapter progress: a missing level is not counted
+---- 506 passed, 0 failed ----

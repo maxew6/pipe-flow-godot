@@ -1,0 +1,15 @@
+.godot/
+.import/
+.export/
+android/build/
+build/
+*.keystore
+*.jks
+*.apk
+*.aab
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep the checked-in verification evidence visible.
+!docs/verification/*.log

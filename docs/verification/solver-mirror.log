@@ -1,0 +1,18 @@
+Screenshot layout, cap turned correctly: {'reached': True, 'dead': [], 'valid': True, 'why': ''}
+Screenshot state (cap C2): {'reached': True, 'dead': [((1, 0), 'S')], 'valid': False, 'why': ''}
+  OLD rule (tap reachable => success): ACCEPTED (the bug)
+  NEW rule (tap reachable AND sealed): REJECTED, leak at S side of cell (1, 0)
+OK  1 reciprocal openings reached=True valid=True dead=[]
+OK  2 mismatched openings reached=False valid=False dead=[((0, 0), 'E')]
+OK  3 reachable dead end reached=True valid=False dead=[((1, 0), 'S')]
+OK  4 open end facing empty cell reached=True valid=False dead=[((1, 1), 'E')]
+OK  5 open end facing outside board reached=True valid=False dead=[((1, 0), 'N')]
+OK  6 correctly capped end reached=True valid=True dead=[]
+OK  7 cap rotated wrong C1 reached=True valid=False dead=[((1, 0), 'S')]
+OK  7 cap rotated wrong C2 reached=True valid=False dead=[((1, 0), 'S')]
+OK  7 cap rotated wrong C3 reached=True valid=False dead=[((1, 0), 'S')]
+OK  8 plain valid route reached=True valid=True dead=[]
+OK  9 tap reached + leaking branch reached=True valid=False dead=[((1, 1), 'E')]
+OK  10 sealed cycle reached=True valid=True dead=[]
+OK  10b cycle with a leak reached=True valid=False dead=[((1, 1), 'S')]
+All 20 levels: solution valid and sealed; every cap the water reaches seals only in its stored rotation.

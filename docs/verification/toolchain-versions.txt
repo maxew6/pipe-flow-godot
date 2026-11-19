@@ -1,0 +1,9 @@
+Godot: 4.7.2.stable.official.ed1daf0bf
+openjdk version "21.0.12.1" 2026-08-18
+Pkg.Revision=2
+AndroidVersion.ApiLevel=35
+Pkg.Revision=35.0.1
+#Pkg.Revision=35.0.0 rc4
+Pkg.Revision=37.0.1
+Pkg.Revision = 28.1.13356709
+Pkg.Revision = 3.22.1
